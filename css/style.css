@@ -3,7 +3,7 @@
 @Author:     webpoin
 @Email:      1357113262@qq.com
 ***/
-@import url(http://at.alicdn.com/t/font_1429108639_2528276.css);
+@import url(http://at.alicdn.com/t/font_1429715970_4137201.css);
 html{*border:none;;overflow-y:scroll; overflow-x:auto;height: 100%;width: 100%;position: relative;}
 body{margin:0;font:normal 0.8em/1.5 "微软雅黑", Arial,Tahoma,Helvetica,sans-serif;color:#333;width: 100%;min-width:1000px;background: #f6f6f6;}
 h1,h2,h3,h4,h5,h6,ol,ul,p,form,dl{margin-top:0;margin-bottom:0}
@@ -112,11 +112,13 @@ i.icon{display: inline-block;vertical-align: top; font-family:"iconfont" !import
 .mainbox:before{content: '';position: absolute;left: 0;top: 0;width: 248px;height: 100%;background: #fff;box-shadow: 0 0 2px rgba(0,0,0,0.3); }
 .mainbox:after{content: '';position: absolute;right: 0;top: 0;width: 230px;height: 100%;background: #fff;box-shadow: 0 0 2px rgba(0,0,0,0.3); }
 .clearfix{clear: both;}
+.mainbox2:after{display: none;}
+
 
 .sidebar{float: left;position: relative;z-index: 1; width: 248px;}
 .spread{float: right;position: relative;z-index: 1; width: 230px;padding-top: 10px;}
 .main{width: 740px; margin: 0 265px 0 283px; box-shadow: 0 0 2px rgba(0,0,0,0.3);background: #fff;overflow: hidden;}
-
+.main2{margin-right: 0;width: 1004px;}
 
 
 /*用户*/
@@ -209,4 +211,50 @@ i.icon{display: inline-block;vertical-align: top; font-family:"iconfont" !import
 .page a.active{background: #0084ff;color: #fff;}
 .page a:hover{color: #0084ff;}
 .page a.active:hover{color: #fff;}
+
+
+
+
+
+
+.news li{overflow: hidden;padding: 40px 0;margin: 0 40px;border-bottom: 1px solid #e8e8e8;}
+.news h3 {float: left;width: 220px;height: 152px;}
+.news h4 {margin-left: 260px;color: #333;font-size: 22px;}
+.news p {margin-left: 260px;color: #777;padding: 15px 0; font-size: 18px;line-height: 28px;}
+.news p a{white-space: normal;}
+.news cite {display: block; margin-left: 260px;font-size: 16px;color: #777;font-style: normal;}
+.news cite span{display: inline-block;width: 25px;height: 25px;vertical-align: middle;}
+.news cite span img{width: 100%;height: 100%;border-radius: 25px;}
+
+
+
+.article{padding: 40px;}
+.article h1{font-size: 28px;line-height: 32px;}
+.article_auth {display: block;margin: 15px 0 25px; font-size: 16px;color: #777;font-style: normal;}
+.article_auth span{display: inline-block;width: 25px;height: 25px;vertical-align: middle;}
+.article_auth span img{width: 100%;height: 100%;border-radius: 25px;}
+.article_cnt{font-size: 16px;line-height: 28px;color: #666;}
+
+
+
+
+.join_tle{text-align: center;margin-bottom: 30px;}
+.join_tle strong{display: block;font-size: 24px;line-height: 32px;padding: 15px 0;}
+.join_tle a{color: #256fde;}
+.join_cnt {text-align: center;}
+.join_cnt ul{display: inline-block;vertical-align: top; text-align: left;margin: 0 15px;}
+.join_cnt li{width: 305px;border:1px solid #c8c7c7;border-radius: 20px;padding: 25px;margin-bottom: 20px;font-size: 16px;line-height: 20px;}
+.join_cnt h4{font-size: 20px;margin-bottom: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
 
