@@ -1,21 +1,23 @@
 # elena
 
 
-
 ##  首页
-> * css布局 完成
-> * 幻灯片 未完成
-
-
+> * index.html
 
 ## 列表页
-> * css布局 完成
-
+> * list.html
 
 ## 详情页
-> * css布局 完成
+> * detail.html
 
+## 文章页
+> * article.html
 
-## 未完成
-> * 兼容调整
-> * 剩余页面开发
+## 加入我们
+> * join.html
+
+## 新闻列表
+> * news.html
+
+## 关于我们
+> * about.html
