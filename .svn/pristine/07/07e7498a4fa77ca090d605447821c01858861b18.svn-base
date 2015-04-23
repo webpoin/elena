@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>碎银三千-会员信息</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- bootstrap -->
+    <link href="css/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="css/bootstrap/bootstrap-overrides.css" type="text/css" rel="stylesheet" />
+
+    <!-- global styles -->
+    <link rel="stylesheet" type="text/css" href="css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="css/elements.css" />
+    
+    <!-- this page specific styles -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/personal-info.css" />
+
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/r29/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+
+	<div class="header">
+		<a class="header_logo" href="#"><img src="images/header_logo.png" alt="logo" ></a>
+		<ul class="header_nav">
+			<li class="active"><a href="#">首页</a></li>
+			<li><a href="#">招聘信息</a></li>
+			<li><a href="#">资讯中心</a></li>
+			<li><a href="#">关于我们</a></li>
+			<li><a href="#">联系我们 </a></li>
+		</ul>
+	</div>
+
+
+
+	<div class="mainbox" id="release">
+		
+		<div class="sidebar">
+
+			<div class="user">
+				<div class="user_img"><img src="images/user.jpg" alt=""><i class="icon icon-circle-block"></i></div>
+				<div class="user_icon"><img src="images/user_icon.png" alt=""></div>
+				<p>wenzyi</p>
+			</div>
+
+			<div class="sidebar_nav">
+				<ul>
+					<li class="active"><a href="#"><i class="icon icon-remenchanpin"></i>热门</a></li>
+					<li><a href="#"><i class="icon icon-wusousuo2x"></i>搜索</a></li>
+					<li><a href="#"><i class="icon icon-weizhiqiandao"></i>位置</a></li>
+					<li><a href="#"><i class="icon icon-tianjiashipin"></i>添加</a></li>
+					<li><a href="#"><i class="icon icon-xiaoxi"></i>消息</a></li>
+					<li><a href="#"><i class="icon icon-shezhi"></i>设置</a></li>
+				</ul>
+
+			</div>
+		</div>
+
+		<div class="main">
+			<div class=" personal-info">
+                    <div class="alert alert-info">
+                        <i class="icon-lightbulb"></i>
+                        This page shows an example of an alternative layout with the main navbar on the top
+                        <br /> using <strong>.content.wide-content</strong> for this main container
+                    </div>
+                    <h5 class="personal-title">Personal info</h5>
+
+                    <form />
+                        <div class="field-box">
+                            <label>First name:</label>
+                            <input class="span5 inline-input" type="text" value="Alejandra" />
+                        </div>
+                        <div class="field-box">
+                            <label>Last name:</label>
+                            <input class="span5 inline-input" type="text" value="Galvan" />
+                        </div>
+                        <div class="field-box">
+                            <label>Company:</label>
+                            <input class="span5 inline-input" type="text" value="Design Co." />
+                        </div>
+                        <div class="field-box">
+                            <label>Email:</label>
+                            <input class="span5 inline-input" type="text" value="alejandra@design.com" />
+                        </div>
+                        <div class="field-box">
+                            <label>Time Zone:</label>
+                            <div class="ui-select">
+                                <select id="user_time_zone" name="user[time_zone]">
+                                    <option value="Hawaii" />(GMT-10:00) Hawaii
+                                    <option value="Alaska" />(GMT-09:00) Alaska
+                                    <option value="Pacific Time (US &amp; Canada)" />(GMT-08:00) Pacific Time (US &amp; Canada)
+                                    <option value="Arizona" />(GMT-07:00) Arizona
+                                    <option value="Mountain Time (US &amp; Canada)" />(GMT-07:00) Mountain Time (US &amp; Canada)
+                                    <option value="Central Time (US &amp; Canada)" selected="selected" />(GMT-06:00) Central Time (US &amp; Canada)
+                                    <option value="Eastern Time (US &amp; Canada)" />(GMT-05:00) Eastern Time (US &amp; Canada)
+                                    <option value="Indiana (East)" />(GMT-05:00) Indiana (East)                                    
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field-box">
+                            <label>Username:</label>
+                            <input class="span5 inline-input" type="text" value="alegalvan" />
+                        </div>
+                        <div class="field-box">
+                            <label>Password:</label>
+                            <input class="span5 inline-input" type="password" value="blablablabla" />
+                        </div>
+                        <div class="field-box">
+                            <label>Confirm password:</label>
+                            <input class="span5 inline-input" type="password" value="blablablabla" />
+                        </div>
+                        <div class="span6 field-box actions">
+                            <input type="button" class="btn-glow primary" value="Save Changes" />
+                            <span>OR</span>
+                            <input type="reset" value="Cancel" class="reset" />
+                        </div>
+                    </form>
+                </div>
+            
+		</div>
+
+
+
+		<div class="clearfix"></div>	
+	</div>
+
+	<div class="footer">
+		<div class="footer_nav">
+			<a href="#">关于我们</a>
+			<a href="#">联系我们</a>
+			<a href="#">发布悬赏须知</a>
+			<a href="#">使用帮助</a>
+			<a href="#">法律说明</a>
+			<a href="#">付款方式</a>
+		</div>
+
+		<div class="footer_dis">
+			Copyright  2009-2015  碎银三千  All rights reserved <br>
+			电话：182-2324-3212 &nbsp;&nbsp;&nbsp;&nbsp;客服QQ：1827239830
+		</div>
+
+
+	</div>
+</body>
+</html>

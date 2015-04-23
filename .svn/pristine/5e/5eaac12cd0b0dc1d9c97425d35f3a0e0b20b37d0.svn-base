@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>elena</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+	<div class="header">
+		<a class="header_logo" href="#"><img src="images/header_logo.png" alt="logo" ></a>
+		<ul class="header_nav">
+			<li class="active"><a href="#">首页</a></li>
+			<li><a href="#">招聘信息</a></li>
+			<li><a href="#">资讯中心</a></li>
+			<li><a href="#">关于我们</a></li>
+			<li><a href="#">联系我们 </a></li>
+		</ul>
+	</div>
+
+
+	<div class="banner">
+		<img class="banner_bkg" src="images/banner.jpg" alt="">
+		<h3>简单3步轻松赚钱</h3>
+		<ul>
+			<li><a href="#"><img src="images/steps1.png" alt=""><span>1.注册成为会员</span></a></li>
+			<li><a href="#"><img src="images/steps2.png" alt=""><span>2.做任务赚取金币</span></a></li>
+			<li><a href="#"><img src="images/steps3.png" alt=""><span>3.金币提现</span></a></li>
+		</ul>
+	</div>
+
+
+
+	<div class="character">
+		
+		<a href="#">
+			<img src="images/character1.jpg" alt="">
+			<strong>注册成雇主，发布推广任务</strong>
+			<span>定制网络推广方案，精益求精您的帖子，发布推广任务，获得推广效果。</span>
+		</a>
+
+		<a href="#">
+			<img src="images/character2.jpg" alt="">
+			<strong>注册成雇主，发布推广任务</strong>
+			<span>定制网络推广方案，精益求精您的帖子，发布推广任务，获得推广效果。</span>
+		</a>
+
+	</div>
+
+
+	<div class="normalpic" style="background: #249ada;"><a href="#"><img src="images/index_pic1.jpg" alt=""></a></div>
+	<div class="normalpic" style="background: #ff843a;"><a href="#"><img src="images/index_pic2.jpg" alt=""></a></div>
+
+	<div class="ways">
+		<a href="#"><img src="images/ways1.png" alt=""></a>
+		<a href="#"><img src="images/ways2.png" alt=""></a><br>
+		<a href="#"><img src="images/ways3.png" alt=""></a>
+		<a href="#"><img src="images/ways4.png" alt=""></a>
+	</div>
+
+
+	<div class="slides">
+		<div class="slider">
+			<ul>
+				<li><a href="#"><img src="images/slides1.jpg" alt=""></a></li>
+				<li><a href="#"><img src="images/slides1.jpg" alt=""></a></li>
+				<li><a href="#"><img src="images/slides1.jpg" alt=""></a></li>
+			</ul>
+		</div>
+
+		<b class="slides_left"><i class="icon icon-iconfont35"></i></b>
+		<b class="slides_right"><i class="icon icon-iconfont36"></i></b>
+	</div>
+
+
+	<div class="links">
+		<div class="links_center">
+			<a href="#"><img src="images/no.gif" alt=""><span>腾讯新闻</span></a>
+			<a href="#"><img src="images/no.gif" alt=""><span>腾讯新闻</span></a>
+			<a href="#"><img src="images/no.gif" alt=""><span>腾讯新闻</span></a>
+			<a href="#"><img src="images/no.gif" alt=""><span>腾讯新闻</span></a>
+			<a href="#"><img src="images/no.gif" alt=""><span>腾讯新闻</span></a>
+
+			<a href="#"><img src="images/no.gif" alt=""><span>腾讯新闻</span></a>
+			<a href="#"><img src="images/no.gif" alt=""><span>腾讯新闻</span></a>
+			<a href="#"><img src="images/no.gif" alt=""><span>腾讯新闻</span></a>
+			<a href="#"><img src="images/no.gif" alt=""><span>腾讯新闻</span></a>
+			<a href="#"><img src="images/no.gif" alt=""><span>腾讯新闻</span></a>
+
+		</div>
+
+	</div>
+
+
+	<div class="footer">
+		<div class="footer_nav">
+			<a href="#">关于我们</a>
+			<a href="#">联系我们</a>
+			<a href="#">发布悬赏须知</a>
+			<a href="#">使用帮助</a>
+			<a href="#">法律说明</a>
+			<a href="#">付款方式</a>
+		</div>
+
+		<div class="footer_dis">
+			Copyright  2009-2015  碎银三千  All rights reserved <br>
+			电话：182-2324-3212 &nbsp;&nbsp;&nbsp;&nbsp;客服QQ：1827239830
+		</div>
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<script src="js/index.js"></script>
+</body>
+</html>

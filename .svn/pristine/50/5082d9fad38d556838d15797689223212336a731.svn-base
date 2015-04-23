@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>碎银三千-会员注册</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- bootstrap -->
+    <link href="css/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="css/bootstrap/bootstrap-overrides.css" type="text/css" rel="stylesheet" />
+
+    <!-- global styles -->
+    <link rel="stylesheet" type="text/css" href="css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="css/elements.css" />
+    
+    <!-- this page specific styles -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/signin.css" />
+
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/r29/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="login-bg">
+    <!-- background switcher -->
+<div class="row-fluid login-wrapper">
+        <a href="index.html">
+        </a>
+
+        <div class="span4 box">
+            <div class="content-wrap">
+                <h1>碎银三千-会员注册</h1>
+                <input class="span12" type="text" placeholder="邮箱" />
+                <input class="span12" type="password" placeholder="密码" />
+                <input class="span12" type="password" placeholder="确认密码" />
+                <input class="span12" type="text" placeholder="真实姓名" />
+                <input class="span12" type="text" placeholder="昵称" />
+                	<div class="pr">
+                <input class="span12" type="text" placeholder="验证码" />
+                <img title="刷新验证码" class="verifyImg" onclick="fleshVerify();" id="verifyImg" src="images/code.png" >
+                </div>
+                <a class="btn-glow success login" href="index.html">提交注册</a>
+            </div>
+        </div>
+
+        <div class="span4 no-account">
+            <p>您已经是会员?</p>
+            <a href="signin.html">马上登录</a>
+        </div>
+    </div>
+	<!-- scripts -->
+</body>
+</html>

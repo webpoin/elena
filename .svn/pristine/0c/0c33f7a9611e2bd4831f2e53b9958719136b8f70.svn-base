@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>elena</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+	<div class="header">
+		<a class="header_logo" href="#"><img src="images/header_logo.png" alt="logo" ></a>
+		<ul class="header_nav">
+			<li><a href="#">首页</a></li>
+			<li><a href="#">招聘信息</a></li>
+			<li class="active"><a href="#">资讯中心</a></li>
+			<li><a href="#">关于我们</a></li>
+			<li><a href="#">联系我们 </a></li>
+		</ul>
+	</div>
+
+
+
+	<div class="mainbox mainbox2">
+		
+		<div class="sidebar">
+
+
+			<div class="sidebar_nav" style="border:none;">
+				<ul>
+					<li class="active"><a href="#"><i class="icon icon-guanyuwomen"></i>关于我们</a></li>
+					<li><a href="#"><i class="icon icon-zizhi"></i>公司资质</a></li>
+					<li><a href="#"><i class="icon icon-xinwen"></i>公司新闻</a></li>
+					<li><a href="#"><i class="icon icon-jiarugedan"></i>加入我们</a></li>
+				</ul>
+
+			</div>
+		</div>
+
+
+		<div class="main main2">
+
+			
+			<div class="article">
+
+				<div class="article_cnt">
+					
+					<p style="text-align: center;"><img src="images/about.jpg" alt=""></p><br><br>
+					
+					<p style="margin:0 90px;">
+			        深圳嵊灿科技有限公司（以下简称，SCQ+）成立于2010年，是一家集电子商务软件开发、运营咨询、品牌资源导入的服务提供商。 总部位于深圳高新科技园。自成立以来，公司始终秉承"中国社会化电商先行者"之理念。作为 腾讯开放平台战略全国核心合作伙伴，嵊灿将引领中国电子商务行业跨入社会化电商时代，助力优质B2C电商企业开展低成本电子商务运营。 经过三年的 积累，公司依托社会化电商的专业研究机构及研发团队，在电商企业应用合作领域已成为腾讯开放平台中，规模最大、实力最强、经验最丰富的专业团队。 公司依托腾讯网络资源，联合推出Q商优选合作伙伴项目，优选2000家优质B2C企业开展社会化电子商务。让企业在强资源、强技术、强服务导向的引领 下快速成长起来。 <br>SCQ+通过与腾讯八大平台、央视网企业频道、新浪微博、淘宝，京东、支付宝、中国银联、金蝶等知名企业合作，为国内知名电商企 业如美丽说、好豆网、韩都衣舍、豆丁网、酷表网等提供了社会化电商服务和解决方案。为上百家企业导入腾讯开放平台APP应用接入、平台认证、B2C 平台建设及电商咨询服务。随着腾讯电商资源的不断开放，SCQ+将会通过强技术团队与社会化专家服务，推动Q商优选企业在腾讯平台上获得更快速的 发展，开展全面电子商务，揭开中国社会化电商发展的里程<br>
+					<br>
+					公司精神：成功源之智慧，财富源之行动 <br>
+					服务宗旨：诚挚服务，关爱客户 <br>
+					经营理念：商务与财富共享 <br>
+					公司使命：重任催前行，辉煌凝众智。用我们的双手共 同打造一个学习、娱乐、广告、购物的综合性电子商务服务。道同相之以为谋，共铸企业之辉煌， 皆系于我们的使命，我们铭记公司使命，孜孜不倦，诚挚服务、成就卓越。<br>
+
+					</p>
+					<br><br><br><br><br><br>
+				</div>
+
+			
+
+			</div>
+
+
+		</div>
+
+		
+
+		<div class="clearfix"></div>	
+	</div>
+
+
+
+	<div class="footer">
+		<div class="footer_nav">
+			<a href="#">关于我们</a>
+			<a href="#">联系我们</a>
+			<a href="#">发布悬赏须知</a>
+			<a href="#">使用帮助</a>
+			<a href="#">法律说明</a>
+			<a href="#">付款方式</a>
+		</div>
+
+		<div class="footer_dis">
+			Copyright  2009-2015  碎银三千  All rights reserved <br>
+			电话：182-2324-3212 &nbsp;&nbsp;&nbsp;&nbsp;客服QQ：1827239830
+		</div>
+
+
+	</div>
+
+
+
+
+	<script src="js/global.js"></script>
+</body>
+</html>

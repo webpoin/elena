@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>elena</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+	<div class="header">
+		<a class="header_logo" href="#"><img src="images/header_logo.png" alt="logo" ></a>
+		<ul class="header_nav">
+			<li><a href="#">首页</a></li>
+			<li><a href="#">招聘信息</a></li>
+			<li class="active"><a href="#">资讯中心</a></li>
+			<li><a href="#">关于我们</a></li>
+			<li><a href="#">联系我们 </a></li>
+		</ul>
+	</div>
+
+
+
+	<div class="mainbox mainbox2">
+		
+		<div class="sidebar">
+
+
+			<div class="sidebar_nav" style="border:none;">
+				<ul>
+					<li><a href="#"><i class="icon icon-guanyuwomen"></i>关于我们</a></li>
+					<li><a href="#"><i class="icon icon-zizhi"></i>公司资质</a></li>
+					<li><a href="#"><i class="icon icon-xinwen"></i>公司新闻</a></li>
+					<li class="active"><a href="#"><i class="icon icon-jiarugedan"></i>加入我们</a></li>
+				</ul>
+
+			</div>
+		</div>
+
+
+		<div class="main main2">
+
+			
+			<div class="article">
+				<p style="text-align: center;"><img src="images/join.jpg" alt=""></p>
+			
+
+				<div class="join_tle">
+					<strong>需要职位</strong>
+					<p>如果您有意向，请将个人简历投至 <a href="#">hr@huaban.com</a></p>
+				</div>
+
+
+				<div class="join_cnt">
+					
+					<ul>
+						<li>
+							<h4>用户界面设计师</h4>
+							岗位职责：<br>
+							1.通过用户行为分析发现新的业务需求，改进完善现有的搜索引擎。<br>
+							2.设计和改进现有的搜索相关的算法，提升用户的搜索体验。<br>
+							<br>
+							岗位要求：<br>
+							1.本科以上学历<br>
+							2.熟悉 memcache，redis 等缓存系统。<br>
+						</li>
+						<li>
+							<h4>前端开发工程师</h4>
+							岗位职责：<br>
+							1.Web 应用的设计与开发<br>
+							2.复杂用户界面与交互应用开发<br>
+							3.现有产品的持续改进<br>
+							<br>
+							任职资格<br>
+							1.精通 JavaScript/CSS/HTML<br>
+							2.熟悉至少一种面向对象的前端框架（Google Closure/YUI/MooTools 等）<br>
+							3.能够写出高性能、可复用的前端组件<br>
+							熟悉服务器端开发技术<br>
+
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<h4>产品设计师</h4>
+							岗位职责：<br>
+							1.主导或参与知乎的产品规划、设计、改进和迭代。<br>
+							2.制作产品原型，完成产品文档。<br>
+							<br>
+							岗位要求：<br>
+							1.认同知乎理念，愿意为构建大而美的信息流动机制而长期工作<br>
+							2.能够主导完整产品或独立模块、功能的设计和迭代<br>
+							3.有一年以上移动互联网产品相关工作经验（不限于产品经理职位）分析和设计的项目经验<br>
+						</li>
+
+						<li>
+							<h4>后台开发工程师</h4>
+							岗位职责：<br>
+							1.开发各类性能和效率工具，帮助提升技术人员的效率<br>
+							2.为相关产品线提供分布式技术解决方案<br>
+							3.涉及的技术领域包括但不仅限于：代码生成工具，调试工具，系统跟踪工具，持续交付工具，安全工具等<br>
+							<br>
+							任职资格<br>
+							1.分布式系统设计和开发经验<br>
+							2.至少熟悉 Python、Java‎、Ruby、Go 中的一种语言（不限于产品经理职位）分析     <br>
+
+						</li>
+
+
+
+
+					</ul>
+				</div>
+
+
+
+			</div>
+
+
+		</div>
+
+	
+		<div class="clearfix"></div>	
+	</div>
+
+
+
+	<div class="footer">
+		<div class="footer_nav">
+			<a href="#">关于我们</a>
+			<a href="#">联系我们</a>
+			<a href="#">发布悬赏须知</a>
+			<a href="#">使用帮助</a>
+			<a href="#">法律说明</a>
+			<a href="#">付款方式</a>
+		</div>
+
+		<div class="footer_dis">
+			Copyright  2009-2015  碎银三千  All rights reserved <br>
+			电话：182-2324-3212 &nbsp;&nbsp;&nbsp;&nbsp;客服QQ：1827239830
+		</div>
+
+
+	</div>
+
+
+
+
+	<script src="js/global.js"></script>
+</body>
+</html>
